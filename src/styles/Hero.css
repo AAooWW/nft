@@ -139,15 +139,23 @@ a {
 button#explore {
   width: 180px;
   height: 50px;
-  margin-right: 5px;
-  border-radius: 30px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-size:21px;
   border: none;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background: #11998e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #38ef7d, #11998e); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-weight: 600;
-  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  background: #007736; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgb(22,163,74)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgb(22,163,74)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:#ffffff;
   cursor: pointer;
 }
 
