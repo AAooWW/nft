@@ -13,7 +13,7 @@ const Home = () => {
     <div id="home">
       <Hero list={hotDropsData} />
 
-      <p id="card-list-header-text"> Hot Drops </p>
+      <p id="card-list-header-text"> Hot Chatbots </p>
       <div id="list-container">
         <CardList list={hotDropsData} />
       </div>

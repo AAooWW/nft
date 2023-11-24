@@ -14,11 +14,11 @@ const Header = () => {
 
     return (
         <div id="header">
-        <Link to='/' id='logo'>NFT Room</Link>
+        <Link to='/' id='logo'>OpenChatbot</Link>
 
         <div id="link-containers">
-          <a>Start Hunting</a>
-          <a>Dark NFTs</a>
+          <a>Start Chatting</a>
+          <a>Create Your Chatbot</a>
           <a>Community</a>
           <a>Craft NFT</a>
 
