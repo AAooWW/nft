@@ -15,8 +15,8 @@ const Header = () => {
 
     return (
         <div id="header">
-          <Link to='/' id='logo'>
-            <img src={process.env.PUBLIC_URL + '/logo.png'} alt='OpenChatbot logo' style={{ width: '12px', height: '12px' }} />
+          <Link to='/' id='logo' style={{ display: 'flex', alignItems: 'center' }}>
+            <img src={process.env.PUBLIC_URL + '/logo.png'} alt='OpenChatbot logo' style={{ width: '40px', height: '40px', marginRight: '10px' }} />
             OpenChatbot
           </Link>
         <div id="link-containers">
