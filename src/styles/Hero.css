@@ -37,7 +37,7 @@
   opacity: 0.3;
 }
 #header {
-  height: 77px;
+  height: 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
