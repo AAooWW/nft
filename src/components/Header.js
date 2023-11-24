@@ -16,7 +16,7 @@ const Header = () => {
     return (
         <div id="header">
           <Link to='/' id='logo'>
-            <img src={process.env.PUBLIC_URL + '/logo.png'} alt='OpenChatbot logo' />
+            <img src='../assets/logo.png' alt='OpenChatbot logo' />
             OpenChatbot
           </Link>
         <div id="link-containers">
