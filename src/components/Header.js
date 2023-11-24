@@ -1,7 +1,6 @@
 import react, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { useEthers, useEtherBalance } from "@usedapp/core";
-import logo from '../../public/logo.png';
 
 
 const Header = () => {
@@ -17,7 +16,7 @@ const Header = () => {
     return (
         <div id="header">
           <Link to='/' id='logo'>
-            <img src={logo} alt='OpenChatbot logo' />
+            <img src='../../public/logo.png' alt='OpenChatbot logo' />
             OpenChatbot
           </Link>
         <div id="link-containers">
