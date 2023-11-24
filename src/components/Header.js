@@ -14,8 +14,10 @@ const Header = () => {
 
     return (
         <div id="header">
-        <Link to='/' id='logo'>OpenChatbot</Link>
-
+          <Link to='/' id='logo'>
+            <img src='../../public/logo.png' alt='OpenChatbot logo' />
+            OpenChatbot
+          </Link>
         <div id="link-containers">
           <a>Start Chatting</a>
           <a>Create Your Chatbot</a>
