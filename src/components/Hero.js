@@ -10,7 +10,7 @@ const Hero = () => {
     navigate("/explore");
   };
   const goCreate = () => {
-    navigate("/create");
+    window.location.href = 'https://chat.openchatbot.xyz/';
   };
 
   return (
