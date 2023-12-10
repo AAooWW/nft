@@ -92,6 +92,10 @@ a {
   border: 1px solid #ffffff;
 }
 
+#link-containers a{
+  border-radius: 30px;
+}
+
 
 #header-text-first {
   margin-top: 90px;
